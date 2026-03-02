@@ -246,9 +246,7 @@ A benchmark video is available demonstrating:
 
 | Name          | Role                          |
 |---------------|-------------------------------|
-| Aïmane ALASSANE | Neural Network Core           |
-| Oscar GBENOU | Data Conversion & Evaluation  |
-| Jordan AMOUZOUN | Shell & UX & Benchmark                    |
+| Aïmane ALASSANE | Neural Network Core         |
 
 ## Final Notes
 
