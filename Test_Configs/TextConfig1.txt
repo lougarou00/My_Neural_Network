@@ -1,0 +1,6 @@
+Aïmane
+
+NN1 :
+Deux couches cachées : (128, 64)
+Activation : RELU
+Activation output : SIGMOID

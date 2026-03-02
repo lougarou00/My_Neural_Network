@@ -1,0 +1,5 @@
+{
+    "epochs": 30,
+    "mini_batch_size": 64,
+    "eta": 0.003
+}

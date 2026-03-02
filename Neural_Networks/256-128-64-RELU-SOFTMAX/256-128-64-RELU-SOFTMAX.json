@@ -1,0 +1,31 @@
+{
+    "epochs": 50,
+    "layers": [
+        {
+            "activation": "RELU",
+            "index": 1,
+            "layer_type": "HIDDEN",
+            "number": 256
+        },
+        {
+            "activation": "RELU",
+            "index": 2,
+            "layer_type": "HIDDEN",
+            "number": 128
+        },
+        {
+            "activation": "RELU",
+            "index": 3,
+            "layer_type": "HIDDEN",
+            "number": 64
+        },
+        {
+            "activation": "SIGMOID",
+            "index": 4,
+            "layer_type": "OUTPUT",
+            "number": 5
+        }
+    ],
+    "learning_rate": 0.10000000149011612,
+    "mini_batch_size": 100
+}

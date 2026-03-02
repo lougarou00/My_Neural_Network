@@ -1,0 +1,19 @@
+{
+  "layers": [
+    {
+      "type": "hidden",
+      "size": 128,
+      "neuron_type": "RELU"
+    },
+    {
+      "type": "hidden",
+      "size": 64,
+      "neuron_type": "RELU"
+    },
+    {
+      "type": "output",
+      "size": 5,
+      "neuron_type": "SOFTMAX"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+Oscar
+
+NN2 : 
+Trois couches cachées : (256, 128, 64)
+Activation hidden : TANH
+Activation output : SIGMOID

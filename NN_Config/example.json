@@ -1,0 +1,24 @@
+{
+  "layers": [
+    {
+      "type": "hidden",
+      "size": 10,
+      "neuron_type": "SIGMOID"
+    },
+    {
+      "type": "hidden",
+      "size": 12,
+      "neuron_type": "TANH"
+    },
+    {
+      "type": "hidden",
+      "size": 20,
+      "neuron_type": "RELU"
+    },
+    {
+      "type": "output",
+      "size": 5,
+      "neuron_type": "SOFTMAX"
+    }
+  ]
+}

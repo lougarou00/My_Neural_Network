@@ -1,0 +1,56 @@
+:root {
+  --vp-c-brand-1: #2181e7ae; /* Couleur principale */
+  --vp-c-brand-2: #bb1fa488; /* Variante */
+}
+
+/* Change la police globale */
+body, .vp-doc {
+  font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+}
+
+Change la taille des titres
+.vp-doc h1 { font-size: 2.5rem; }
+.vp-doc h2 { font-size: 2rem; }
+.vp-doc h3 { font-size: 1.5rem; }
+.vp-doc h4 { font-size: 1.2rem; }
+.vp-doc h5 { font-size: 1rem; }
+.vp-doc h6 { font-size: 0.9rem; }
+
+Change la taille du texte normal
+.vp-doc p, .vp-doc li {
+  font-size: 1.0rem;
+}
+
+/* Bouton principal (theme: brand) */
+.VPHero .VPButton.brand {
+  /* background-color: #2f8bed8e;      Normal */
+  color: #fff;
+  border: none;
+}
+
+.VPHero .VPButton.brand:hover {
+  background-color: #2180e7ed;   /*   Hover */
+}
+
+.VPHero .VPButton.brand:active {
+  background-color: #f695c6;      /* Active */
+}
+
+/* Réduit la marge sur la page d’accueil */
+.VPHome {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+/* Applique la couleur principale aux titres */
+.vp-doc h1 {
+  color: var(--vp-c-brand-1);
+}
+
+.vp-doc h2,
+.vp-doc h3,
+.vp-doc h4,
+.vp-doc h5,
+.vp-doc h6 {
+  color: #63eef585;
+}
